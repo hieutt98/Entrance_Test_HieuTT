@@ -1,0 +1,144 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    height: 100vh;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lucky {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.lucky-bumber {
+    text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    background-color: red;
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.lucky-block {
+    padding: 20px 40px;
+}
+
+.lucky-text {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.block-turn {
+    text-align: center;
+}
+
+#lucky-input {
+    font-size: 1.6rem;
+    border: 1px solid #fff;
+    height: 40px;
+    padding: 0 8px;
+    outline: none;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+#lucky-button {
+    height: 40px;
+    width: 100px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    background-color: #8fff46;
+}
+
+.lucky-time {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #000;
+    display: none;
+}
+
+.lucky-time-red {
+    color: red;
+}
+
+.lucky-time-block {
+    display: block;
+}
+
+.lucky-random {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+.lucky-import {
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+    display: none;
+}
+
+.lucky-illegal {
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+    display: none;
+}
+
+.win-prize {
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+    display: none;
+}
+
+.out-of-move {
+    text-align: center;
+    color: red;
+    font-size: 2rem;
+    display: none;
+}
+
+.lucky-random>p {
+    margin: 20px 0;
+}
+
+
+/* Mobile: max-width < 739px */
+@media only screen and (max-width: 46.1875em) {
+    .lucky {
+        margin: 0 12px;
+    }
+
+    .lucky-text {
+        text-align: center;
+    }
+
+    #lucky-input {
+        margin-bottom: 20px;
+    }
+}   
